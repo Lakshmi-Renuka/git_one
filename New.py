@@ -1,0 +1,85 @@
+name = input("What is your name?")
+color = input("What is your favorite color?")
+print(name + ' likes ' + color)
+
+birth_year = input("Enter your birth year: ")
+print(type(birth_year))
+age = 2026 - int(birth_year)
+print(type(age))
+print(age)
+
+wlbs = input(" Weight (lbs)")
+wkg = int(wlbs) * 0.45
+print(wkg)
+
+name = 'jennifier'
+print (name[1:-1])
+
+x = (2+3)*10-3 
+print(x) # ans 47
+
+is_hot = False
+if is_hot:
+    print("It's a hot day")
+    print("Drink plenty of water")
+else:
+    print("It's a cold day")
+    print("Wear warm clothes")
+print("Enjoy your day")
+
+is_hot = False
+is_cold = True
+if is_hot:
+    print("It's a hot day")
+    print("Drink plenty of water")
+elif is_cold:
+    print("It's a cold day")
+    print("Wear warm clothes")
+else:
+    print("It's a lovely day")
+print("Enjoy your day")
+
+p = int(input("Enter principal amount: "))
+credit = True
+if credit:
+    down_payment = 0.1 * p
+else:
+    down_payment = 0.2 * p
+print(f"Down payment: ${down_payment}")
+
+n= input("Enter your name: ")
+if len(n) < 3:
+    print("Name must be at least 3 characters") 
+elif len(n) > 50:
+    print("Name can be a maximum of 50 characters")
+else:
+    print("Name looks good!")
+
+w=int(input("Enter weight: "))
+unit=input("Enter unit (K) for kilograms or (L) for pounds: ")
+if unit.upper() == "K":
+    print(f"Weight in pounds: {w * 2.20462}")
+elif unit.upper() == "L":
+    print(f"Weight in kilograms: {w * 0.453592}")
+else:
+    print("Invalid unit. Please enter 'K' for kilograms or 'L' for pounds.")
+
+
+i=1
+while i<=5:
+    print('*' * i)
+    i=i+1
+print("Done")
+
+sn=9
+count = 0
+limit=3
+while count < limit:
+    guess = int(input("Guess the number: "))
+    count= count + 1
+    if guess == sn:
+        print("You won!")
+        break
+else:
+    print("Sorry, you failed!")
+
