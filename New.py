@@ -83,8 +83,12 @@ while count < limit:
 else:
     print("Sorry, you failed!")
 
+import calendar
+x=int(input("enter the year:"))
+print("***********calender***********")
+print(calendar.calendar(x))
+
 # Addition of Matrices.
-print("******************* Addition of Matrices **************************")
 x=[[12,7,3],[4,5,6],[7,8,9]]
 y=[[5,8,1],[6,7,3],[4,5,9]]
 result=[[0,0,0],[0,0,0],[0,0,0]]
@@ -93,3 +97,14 @@ for i in range (len(x)):
         result [i][j] = x[i][j]+y[i][j]
 for r in result:
     print(r)
+
+# Fibonacci Series.
+n=int(input("enter the range:"))
+f1=0
+f2=1
+for i in range(0, n+1):
+     f3=f1+f2
+     print (f3)
+     f1=f2
+     f2=f3
+print("end of series")
