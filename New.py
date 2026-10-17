@@ -97,8 +97,6 @@ for i in range (len(x)):
         result [i][j] = x[i][j]+y[i][j]
 for r in result:
     print(r)
-<<<<<<< HEAD
-=======
 
 # Fibonacci Series.
 n=int(input("enter the range:"))
@@ -110,4 +108,21 @@ for i in range(0, n+1):
      f1=f2
      f2=f3
 print("end of series")
->>>>>>> 422904f ( added fibonacci series program)
+
+# Random Number Generated between 1 and 100 and Even and Odd.
+import random
+x=random.randint(1,100)
+print(x)
+if(x % 2==0):
+    print("even")
+else:
+    print("odd")
+
+# Simple and Compound Interest.
+p=float(input("enter principle amount:"))
+t=float(input("enter time taken:"))
+r=float(input("enter rate of interest:"))
+si=(p*t*r)/100
+print("simple interest:",si)
+ci=p*((1+r/100)**t)-p
+print("compound interest:",ci)
