@@ -107,4 +107,26 @@ for i in range(0, n+1):
      print (f3)
      f1=f2
      f2=f3
+<<<<<<< HEAD
 print("end of series")
+=======
+print("end of series")
+
+# Random Number Generated between 1 and 100 and Even and Odd.
+import random
+x=random.randint(1,100)
+print(x)
+if(x % 2==0):
+    print("even")
+else:
+    print("odd")
+
+# Simple and Compound Interest.
+p=float(input("enter principle amount:"))
+t=float(input("enter time taken:"))
+r=float(input("enter rate of interest:"))
+si=(p*t*r)/100
+print("simple interest:",si)
+ci=p*((1+r/100)**t)-p
+print("compound interest:",ci)
+>>>>>>> c33643ea1f3dae648e6f1445861339073381dff3
