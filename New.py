@@ -64,7 +64,6 @@ elif unit.upper() == "L":
 else:
     print("Invalid unit. Please enter 'K' for kilograms or 'L' for pounds.")
 
-
 i=1
 while i<=5:
     print('*' * i)
@@ -107,9 +106,6 @@ for i in range(0, n+1):
      print (f3)
      f1=f2
      f2=f3
-<<<<<<< HEAD
-print("end of series")
-=======
 print("end of series")
 
 # Random Number Generated between 1 and 100 and Even and Odd.
@@ -129,4 +125,3 @@ si=(p*t*r)/100
 print("simple interest:",si)
 ci=p*((1+r/100)**t)-p
 print("compound interest:",ci)
->>>>>>> c33643ea1f3dae648e6f1445861339073381dff3
