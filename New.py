@@ -87,10 +87,7 @@ while cmd.lower() != "quit":
     elif cmd == "stop":
         print("Car stopped.")
     elif cmd == "help":
-        print("""
-                start - to start the car
-                stop - to stop the car
-                quit - to exit""")
+        print(" start - to start the car /n stop - to stop the car /n quit - to exit")
     else:
         print("Sorry, I don't understand that...")
 
