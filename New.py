@@ -134,3 +134,11 @@ si=(p*t*r)/100
 print("simple interest:",si)
 ci=p*((1+r/100)**t)-p
 print("compound interest:",ci)
+
+for x in range(4):
+    for y in range(3):
+        print(f"({x},{y})")
+
+n = [5,2,5,2,2]
+for i in n:
+    print('x' * i)  
