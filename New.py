@@ -12,9 +12,6 @@ wlbs = input(" Weight (lbs)")
 wkg = int(wlbs) * 0.45
 print(wkg)
 
-name = 'jennifier'
-print (name[1:-1])
-
 x = (2+3)*10-3 
 print(x) # ans 47
 
@@ -64,7 +61,6 @@ elif unit.upper() == "L":
 else:
     print("Invalid unit. Please enter 'K' for kilograms or 'L' for pounds.")
 
-
 i=1
 while i<=5:
     print('*' * i)
@@ -82,6 +78,21 @@ while count < limit:
         break
 else:
     print("Sorry, you failed!")
+
+cmd = ""
+while cmd.lower() != "quit":
+    cmd = input(">").lower()
+    if cmd == "start":
+        print("Car started...")
+    elif cmd == "stop":
+        print("Car stopped.")
+    elif cmd == "help":
+        print("""
+                start - to start the car
+                stop - to stop the car
+                quit - to exit""")
+    else:
+        print("Sorry, I don't understand that...")
 
 import calendar
 x=int(input("enter the year:"))
@@ -107,9 +118,6 @@ for i in range(0, n+1):
      print (f3)
      f1=f2
      f2=f3
-<<<<<<< HEAD
-print("end of series")
-=======
 print("end of series")
 
 # Random Number Generated between 1 and 100 and Even and Odd.
@@ -129,4 +137,3 @@ si=(p*t*r)/100
 print("simple interest:",si)
 ci=p*((1+r/100)**t)-p
 print("compound interest:",ci)
->>>>>>> c33643ea1f3dae648e6f1445861339073381dff3
