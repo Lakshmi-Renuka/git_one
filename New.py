@@ -133,4 +133,8 @@ r=float(input("enter rate of interest:"))
 si=(p*t*r)/100
 print("simple interest:",si)
 ci=p*((1+r/100)**t)-p
+<<<<<<< HEAD
 print("compound interest:",ci)
+=======
+print("compound interest:",ci)
+>>>>>>> 6756b39e415a73abea43ab0506071548f9422532
